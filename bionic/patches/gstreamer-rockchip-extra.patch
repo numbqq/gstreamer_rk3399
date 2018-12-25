@@ -1,0 +1,10 @@
+diff --git a/debian/control b/debian/control
+index f7af8e6..8973076 100644
+--- a/debian/control
++++ b/debian/control
+@@ -11,4 +11,5 @@ Homepage: http://www.rock-chips.com/
+ Package: gstreamer1.0-rockchip1-extra
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}
++Replaces: gstreamer1.0-rockchip1
+ Description: The Extra Gstreamer plugins for Rockchip platform.
